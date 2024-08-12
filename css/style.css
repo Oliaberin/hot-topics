@@ -1,0 +1,276 @@
+/* Mobile View of Home */
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333333;
+    color: #fff;
+}
+
+.para {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+}
+
+.head {
+    color: #eaff00;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.head2 {
+    color: #eaff00;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#logo {
+    padding: 1rem;
+    text-align: center;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.par {
+    background: #444444;
+    width: 400px;
+    text-align: center;
+
+}
+
+.pictures {
+    padding-left: 80px;
+}
+
+.port {
+    background: #444444;
+    width: 400px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#navbar ul {
+    list-style-type: none;
+
+}
+
+#navbar a {
+    color: #eaff00;
+    text-decoration: none;
+}
+
+
+#masthead {
+    background: url('default-background.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+main {
+    padding: 1rem;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.social-media a {
+    margin: 0 0.5rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.company-info {
+    margin-top: 1rem;
+}
+
+
+img {
+    max-width: 100%;
+    padding-left: 30px;
+}
+
+
+/* social link footer*/
+
+
+.fa-facebook {
+    font-size: 30px;
+    width: 70px;
+
+}
+
+.fa-square-x-twitter {
+    font-size: 30px;
+    width: 70px;
+}
+
+.fa-instagram {
+    font-size: 30px;
+    width: 70px;
+}
+
+.fa-linkedin {
+    font-size: 30px;
+    width: 70px;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+/* Tablet View of Home*/
+@media (min-width: 35rem) {
+
+    #navbar ul {
+        display: flex;
+        flex-direction: row;
+        width: 300px;
+    }
+
+    .port {
+        margin-top: 0;
+        margin-left: 20px;
+    }
+
+    .wrap {
+        float: left;
+        padding-right: 50px;
+        padding-bottom: 50px;
+    }
+
+   .para1{
+    padding-left: 480px;
+   }
+
+   .imag{
+    padding-left: 480px;
+   }
+}
+
+
+
+/*Desktop View of Home*/
+@media (min-width: 80rem) {
+
+    .card-container {
+        display: grid;
+        grid-template-areas: 'img';
+       }
+
+    #navbar ul {
+        display: flex;
+        flex-direction: row;
+        width: 300px;
+    }
+
+
+    .port {
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+
+    .wrap {
+        float: left;
+        padding-right: 50px;
+        padding-bottom: 50px;
+    }
+
+    .head {
+
+        position: absolute;
+        top: 35px;
+        left: 250px;
+    }
+
+    #main-content {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    h1 {
+        text-align: left;
+    }
+    .para1{
+        padding-left: 480px;
+       }
+    
+       .imag{
+        padding-left: 0px;
+       }
+}
+
+
+
+
+/* Tablet view portfolio*/
+@media (min-width: 35rem) {
+    .card-container1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        padding-left: 30px;
+    }
+
+    .para {
+        text-align: center;
+    }
+
+}
+
+/* desktop version portfolio*/
+@media (min-width: 80rem) {
+    .card-container1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        padding-left: 30px;
+    }
+
+    .para {
+        text-align: center;
+    }
+
+    .pictures {
+        padding-left: 50px;
+    }
+
+    .portfolio-h1 {
+        padding-left: 78px;
+    }
+}
